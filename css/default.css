@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+header {
+  height: 15%;
+}
+
+section {
+  height: 75%;
+}
+
+button {
+  width: 300px;
+  border-radius: 30px;
+  background-color: #fcc;
+  border: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.link a {
+  color: white;
+}

@@ -1,0 +1,33 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header hr {
+  width: 80%;
+  height: 1px;
+  background-color: black;
+}
+
+.logo {
+  text-align: center;
+}
+
+.head-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.head-nav li {
+  display: inline;
+  text-align: center;
+}
+
+.head-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.checked {
+  color: #ff00c7;
+}

@@ -1,0 +1,47 @@
+footer {
+  height: 10%;
+  background-color: black;
+  color: white;
+}
+.grid-container {
+  display: grid;
+}
+
+.footer {
+  grid-template-columns: 400px 2fr 1fr;
+}
+
+.Contact-info {
+  width: 210px;
+  height: 27px;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.column-line {
+  width: 1px;
+  height: 27px;
+  transform: translate(rotate(-270deg));
+  background-color: #fff;
+}
+
+.link a {
+  display: block;
+  font-size: 12px;
+}
+
+.margin-20 {
+  margin: 20px;
+}
+
+.margin-10 {
+  margin: 10px;
+}

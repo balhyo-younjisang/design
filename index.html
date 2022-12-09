@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <div class="title-container">
+            <span class="title">Text 1</span>
+        </div>
+    </header>
+
+    <!--section-->
+    <section>
+        <!--main container-->
+        <div class="main flex-container flex-row space-around">
+            <!--first item-->
+            <div class="items">
+                <div class="img-container">
+                    <!--image A => image B-->
+                    <!--onmouseover="this.src='Change image link on mouse hover'"
+                        onmouseout="this.src='Change image link on mouse out'"
+                    -->
+                    <img id="img-B" src="./img/sampleImageA.jpeg" width="300" height="450"
+                        onmouseover="this.src='./img/imgB.png'" onmouseout="this.src='./img/sampleImageA.jpeg'">
+                </div>
+                <!--button-->
+                <button onclick="location.href='./html/detail-one.html'"><span class="button-text">Button
+                        1</span></button>
+            </div>
+
+            <!--second item-->
+            <div class="items">
+                <div class="img-container">
+                    <!--image A => image C-->
+                    <!--onmouseover="this.src='Change image link on mouse hover'"
+                        onmouseout="this.src='Change image link on mouse out'"
+                    -->
+                    <img id="img-C" src="./img/sampleImageA.jpeg" width="300" height="450"
+                        onmouseover="this.src='./img/imgC.jpeg'" onmouseout="this.src='./img/sampleImageA.jpeg'">
+                </div>
+                <!--button-->
+                <button onclick="location.href='./html/detail-two.html'"><span class="button-text">Button
+                        2</span></button>
+            </div>
+
+            <!--third item-->
+            <div class="items">
+                <div class="img-container">
+                    <!--image A => image D-->
+                    <!--onmouseover="this.src='Change image link on mouse hover'"
+                        onmouseout="this.src='Change image link on mouse out'"
+                    -->
+                    <img id="img-D" src="./img/sampleImageA.jpeg" width="300" height="450"
+                        onmouseover="this.src='./img/imgD.jpeg'" onmouseout="this.src='./img/sampleImageA.jpeg'">
+                </div>
+                <!--button-->
+                <button><span class="button-text">Button 3</span></button>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <div class="footer grid-container">
+            <div class="grid-item margin-20">
+                <div class="flex-container flex-row space-around">
+                    <span class="Contact-info">
+                        Contact info
+                    </span>
+                    <div class="column-line"></div>
+                </div>
+
+            </div>
+            <div class="grid-item margin-10">
+                <div class="left-align flex-container flex-column">
+                    <span class="link">
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">E-mail</a>
+                    </span>
+                </div>
+            </div>
+            <!--Logo png-->
+            <div class="grid-item">
+                <img alt="Logo" src="./img/logo.png" width="300" height="80">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
