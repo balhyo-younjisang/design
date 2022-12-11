@@ -1,0 +1,64 @@
+.checked {
+  color: blue;
+}
+
+.header a {
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.container {
+  height: 80%;
+  width: 100%;
+  justify-items: center;
+}
+
+.container-item {
+  width: 760px;
+  height: 150px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  margin: 15px;
+}
+
+.img-container {
+  margin: 20px;
+  padding: 3px;
+}
+
+.img-container img {
+  border-radius: 20px;
+}
+
+.img-container img:hover {
+  border: 3px solid black;
+}
+
+.text-container {
+  width: 500px;
+  justify-content: flex-start;
+}
+
+section li {
+  list-style-type: disc;
+}
+
+.right-item {
+  text-align: left;
+}
+
+.flex-item {
+  width: 300px;
+}
+
+input {
+  border-radius: 10px;
+  width: 200px;
+  display: block;
+  margin: 5px;
+}

@@ -2,7 +2,6 @@ html,
 body {
   height: 100%;
   margin: 0;
-  overflow: hidden;
 }
 
 header {
@@ -10,7 +9,7 @@ header {
 }
 
 section {
-  height: 75%;
+  padding-bottom: 90px;
 }
 
 button {
@@ -32,6 +31,10 @@ ul {
   display: flex;
 }
 
+.grid-container {
+  display: grid;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -46,4 +49,14 @@ ul {
 
 .link a {
   color: white;
+}
+
+#wrap {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
 }

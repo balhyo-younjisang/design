@@ -21,24 +21,6 @@ section ul {
   grid-template-columns: 1fr 2fr;
 }
 
-#text-container {
-  grid-column: 1 / 5;
-  grid-row: 1 / 2;
-  background-color: aqua;
-}
-
-#input-container1 {
-  grid-column: 1 / 3;
-  grid-row: 2 / 4;
-  background-color: skyblue;
-}
-
-#input-container2 {
-  grid-column: 3 / 5;
-  grid-row: 2 / 4;
-  background-color: blue;
-}
-
 section ul {
   width: 81px;
   height: 32px;
@@ -52,4 +34,47 @@ section ul {
   letter-spacing: normal;
   text-align: left;
   color: #000;
+}
+
+.checked {
+  color: #ff00c7;
+}
+
+.layout-flex {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.text-container {
+  width: 1000px;
+}
+
+.sub-title {
+  height: 80%;
+}
+
+.left-item {
+  width: 60%;
+  height: 80%;
+}
+
+.right-item {
+  width: 40%;
+  height: 80%;
+}
+
+.input-container {
+  display: flex;
+}
+
+input {
+  height: 24px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.right-item input {
+  width: 300px;
+  margin: 10px;
 }

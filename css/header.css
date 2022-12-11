@@ -28,6 +28,6 @@ a {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.checked {
-  color: #ff00c7;
+a {
+  font-weight: 1000;
 }
