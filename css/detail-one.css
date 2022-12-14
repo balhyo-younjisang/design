@@ -67,14 +67,15 @@ section ul {
   display: flex;
 }
 
-input {
-  height: 24px;
-  width: 100px;
-  margin: 10px;
-  border-radius: 20px;
-}
-
 .right-item input {
   width: 300px;
+  margin: 10px;
+}
+
+li .border {
+  width: 200px;
+  height: 24px;
+  background-color: yellowgreen;
+  border-radius: 10px;
   margin: 10px;
 }
